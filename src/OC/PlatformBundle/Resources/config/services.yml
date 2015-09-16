@@ -1,0 +1,4 @@
+# src/OC/PlatformBundle/Resources/config/services.yml
+services:
+    oc_platform.advert_purger:
+        class: OC\PlatformBundle\Purger\OCPurger
